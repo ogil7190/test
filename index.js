@@ -6,7 +6,6 @@ const { initDB } = require('./db');
 const { initSelf } = require('./self');
 const { router, setGlobal } = require('./routes');
 const { regularCheck } = require('./executor/regularExecutor');
-
 const directory = 'screenshots';
 
 const PORT = process.env.PORT || 3000;

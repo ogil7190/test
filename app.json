@@ -1,0 +1,7 @@
+{
+    "name": "test-worker",
+    "description": "Please test it",
+    "repository": "https://github.com/ogil7190/test",
+    "keywords": ["docker", "node"],
+    "stack": "container"
+  }

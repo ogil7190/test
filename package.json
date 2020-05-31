@@ -17,7 +17,8 @@
     "https": "^1.0.0",
     "mongodb": "^3.2.7",
     "node-random-name": "^1.0.1",
-    "puppeteer": "^3.1.0",
+    "ogil-worker-module": "^1.0.3",
+    "puppeteer": "3.1.0",
     "puppeteer-extra": "^3.1.9",
     "puppeteer-extra-plugin-stealth": "^2.4.9"
   }
