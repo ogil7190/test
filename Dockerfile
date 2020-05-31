@@ -23,4 +23,4 @@ RUN  apt-get update \
 # Install Puppeteer under /node_modules so it's available system-wide
 COPY . .
 RUN npm install
-CMD npm install && npm run start
+CMD npm install && node index.js
