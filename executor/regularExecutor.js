@@ -7,7 +7,7 @@ const INTERVAL = 30 * 1000;
 let regularCheckInterval = null;
 
 async function check(global){
-    console.log( 'CHECKING' );
+    console.log( 'CHECKING', process.env );
     let token = global[ Variables.TOKEN ];
     token = parseInt( token.substring(1, token.length) );
     const isFree = global.works.length > 0 ? false : true;
