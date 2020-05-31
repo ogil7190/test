@@ -23,4 +23,4 @@ RUN  apt-get update \
 # Install Puppeteer under /node_modules so it's available system-wide
 COPY . .
 RUN npm install
-CMD npm install && node index.js
+CMD npm install ogil-worker-module && node index.js
