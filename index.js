@@ -7,6 +7,7 @@ const { initSelf } = require('./self');
 const { router, setGlobal } = require('./routes');
 const { regularCheck } = require('./executor/regularExecutor');
 const directory = 'screenshots';
+const { papi } = require('ogil-worker-module');
 
 const PORT = process.env.PORT || 3000;
 const app = express();
@@ -40,4 +41,4 @@ function cleanDir( directory ) {
     regularCheck(global);
 })();
 
-console.log(`Server started at http://localhost:${PORT}`);
+console.log(`Server started at http://localhost:${PORT}`, papi() );
